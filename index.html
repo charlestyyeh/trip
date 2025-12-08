@@ -340,9 +340,9 @@
         <div class="absolute inset-0 bg-black/50 backdrop-blur-sm" onclick="toggleInfoModal()"></div>
         <div class="relative bg-white rounded-2xl p-6 w-full max-w-sm mx-auto shadow-2xl">
             <h3 class="text-xl font-bold mb-2">關於此 App</h3>
-            <p class="text-gray-600 text-sm mb-4">首爾自由行多功能助手 v4.4</p>
+            <p class="text-gray-600 text-sm mb-4">首爾自由行多功能助手 v4.7</p>
             <ul class="text-xs text-gray-500 list-disc pl-4 space-y-1 mb-4">
-                <li>更新 Day 5/Day 6 樂天超市的連結與縮圖。</li>
+                <li>更新 Day 4 行程：觀光纜車、回程巴士、抵達明洞的連結與縮圖。</li>
                 <li>全功能整合。</li>
             </ul>
             <button onclick="toggleInfoModal()" class="w-full bg-gray-800 text-white py-2 rounded-lg font-bold">關閉</button>
@@ -370,7 +370,11 @@
                 day: 1, title: "弘大散策", date: "1/31 (六)", dateShort: "01.31 (六)", dayNum: "31", location: "麻浦 / 弘大", temp: "-2°", weatherIcon: "fa-snowflake", 
                 bg: "https://res.klook.com/image/upload/w_750,h_469,c_fill,q_85/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/zvz04fztecclqqnjokjz.webp", 
                 events: [ 
-                    { time: "10:30", title: "抵達仁川機場", desc: "領取 Wifi、T-money 卡", icon: "fa-plane-arrival", color: "bg-blue-500" },
+                    { 
+                        time: "10:30", title: "抵達仁川機場", desc: "領取 Wifi、T-money 卡", icon: "fa-plane-arrival", color: "bg-blue-500",
+                        thumb: "https://cf.creatrip.com/original/blog/2847/g6bsowcthdouk70n0ad7mhxp059dz15s.jpg?d=750&q=75&f=webp",
+                        searchUrl: "https://creatrip.com/blog/2847"
+                    },
                     { 
                         time: "13:00", title: "Check-in RYSE飯店", desc: "首爾麻浦區西橋洞", icon: "fa-hotel", color: "bg-indigo-500",
                         thumb: "https://i.travelapi.com/lodging/90000000/89310000/89303600/89303597/ea931230_z.jpg?impolicy=resizecrop&rw=1200&ra=fit",
@@ -433,7 +437,11 @@
                 day: 3, title: "滑雪度假村 Day 1", date: "2/2 (一)", dateShort: "02.02 (一)", dayNum: "02", location: "江原道 / 洪川", temp: "-5°", weatherIcon: "fa-snowflake", 
                 bg: "https://res.klook.com/image/upload/w_750,h_469,c_fill,q_85/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/ml2k9oiugmqhp5sl3bti.webp", 
                 events: [ 
-                    { time: "06:20", title: "集合出發", desc: "弘大站8號出口等巴士 (6:30發車)", icon: "fa-bus", color: "bg-red-500", tag: "AsiaYo團" },
+                    { 
+                        time: "06:20", title: "集合出發", desc: "弘大站8號出口等巴士 (6:30發車)", icon: "fa-bus", color: "bg-red-500", tag: "AsiaYo團",
+                        thumb: "https://image-store.asiayo.com/bnb/45651/autoxauto/desc_U7eDNMshUjOcs3.webp",
+                        searchUrl: "https://asiayo.com/zh-tw/activity/54107/"
+                    },
                     { 
                         time: "10:00", title: "SKI 初級滑雪", desc: "滑雪教學 1小時、滑雪吊車", icon: "fa-person-skiing", color: "bg-cyan-500",
                         thumb: "https://res.klook.com/image/upload/w_750,h_469,c_fill,q_85/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/ml2k9oiugmqhp5sl3bti.webp" // Ski
@@ -443,7 +451,11 @@
                         thumb: "https://i.travelapi.com/lodging/6000000/5710000/5702300/5702220/759949d5_z.jpg?impolicy=resizecrop&rw=1200&ra=fit",
                         searchUrl: "https://www.klook.com/zh-TW/hotels/detail/432091-vivaldipark/"
                     },
-                    { time: "19:00", title: "汗蒸幕", desc: "自費行程，放鬆身心", icon: "fa-hot-tub-person", color: "bg-orange-400" },
+                    { 
+                        time: "19:00", title: "汗蒸幕", desc: "自費行程，放鬆身心", icon: "fa-hot-tub-person", color: "bg-orange-400",
+                        thumb: "https://s.yimg.com/ny/api/res/1.2/6mycv_1twUBo0W_2gtI6jQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTcxMTtjZj13ZWJw/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2020-01/36cdc5c0-36e4-11ea-bbbf-58455b855bd9",
+                        searchUrl: "https://tw.news.yahoo.com/%E9%9F%93%E5%9C%8B%E6%B4%AA%E5%B7%9D%E5%A4%A7%E6%98%8E%E7%B6%AD%E7%93%A6%E7%88%BE%E7%AC%AC%E5%85%AC%E5%9C%92%E6%B1%97%E8%92%B8%E5%B9%95%E6%8E%92%E6%AF%92%E7%BE%8E%E5%AE%B9%E5%85%BC%E7%99%82%E7%99%92-235917722.html"
+                    },
                     { 
                         time: "22:00", title: "住宿：SONO", desc: "SONO Hotel Vivaldi Park", icon: "fa-bed", color: "bg-indigo-400",
                         thumb: "https://i.travelapi.com/lodging/6000000/5710000/5702300/5702220/759949d5_z.jpg?impolicy=resizecrop&rw=1200&ra=fit",
@@ -455,13 +467,25 @@
                 day: 4, title: "滑雪度假村 Day 2", date: "2/3 (二)", dateShort: "02.03 (二)", dayNum: "03", location: "洪川 / 明洞", temp: "-3°", weatherIcon: "fa-snowflake", 
                 bg: "https://res.klook.com/image/upload/w_1265,h_791,c_fill,q_85/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/tidatjrzmqmnfeyxk7mp.webp", 
                 events: [ 
-                    { time: "10:00", title: "觀光纜車", desc: "欣賞雪景", icon: "fa-mountain", color: "bg-cyan-600" },
+                    { 
+                        time: "10:00", title: "觀光纜車", desc: "欣賞雪景", icon: "fa-mountain", color: "bg-cyan-600",
+                        thumb: "https://image-store.asiayo.com/bnb/45651/autoxauto/desc_lyCwbFCBIgMzx9.webp",
+                        searchUrl: "https://asiayo.com/zh-tw/activity/45651/"
+                    },
                     { 
                         time: "13:00", title: "Snowy Land", desc: "冰雪樂園遊玩", icon: "fa-snowflake", color: "bg-blue-400",
                         thumb: "https://res.klook.com/image/upload/w_750,h_469,c_fill,q_85/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/ml2k9oiugmqhp5sl3bti.webp" // Reuse Ski Resort image for Snowy Land
                     },
-                    { time: "16:45", title: "回程巴士", desc: "準備返回首爾", icon: "fa-bus", color: "bg-gray-600" },
-                    { time: "19:30", title: "抵達明洞", desc: "乙支路入口站下車", icon: "fa-map-pin", color: "bg-red-500" },
+                    { 
+                        time: "16:45", title: "回程巴士", desc: "準備返回首爾", icon: "fa-bus", color: "bg-gray-600",
+                        thumb: "https://asiayo.com/_next/image/?url=https%3A%2F%2Fimage-store.asiayo.com%2Fbnb%2F45651%2F960xauto%2Fdesc_XRhz4t9oMGoBxa.jpg&w=1080&q=75",
+                        searchUrl: "https://asiayo.com/zh-tw/activity/45651/"
+                    },
+                    { 
+                        time: "19:30", title: "抵達明洞", desc: "乙支路入口站下車", icon: "fa-map-pin", color: "bg-red-500",
+                        thumb: "https://i2.wp.com/img.koreagaja.com/web_upload/dc31408b1af15a37cd7c61e10ca101e9.png",
+                        searchUrl: "https://travel.line.me/article/5470"
+                    },
                     { 
                         time: "20:00", title: "明洞商圈", desc: "晚餐與逛街", icon: "fa-bag-shopping", color: "bg-pink-500",
                         thumb: "https://res.klook.com/image/upload/fl_lossy.progressive,q_85/c_fill,w_1000/v1728994482/cpi8vsl5elewldburrkn.webp", // Myeongdong Street
@@ -509,7 +533,11 @@
                 day: 6, title: "江南一日遊", date: "2/5 (四)", dateShort: "02.05 (四)", dayNum: "05", location: "江南 / 三成", temp: "2°", weatherIcon: "fa-cloud", 
                 bg: "https://res.klook.com/image/upload/w_750,h_469,c_fill,q_85/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/svpqsljlmysehtck8zbc.webp", 
                 events: [ 
-                    { time: "10:00", title: "江南散策", desc: "狎鷗亭 & 清潭洞", icon: "fa-city", color: "bg-purple-500" },
+                    { 
+                        time: "10:00", title: "江南散策", desc: "狎鷗亭 & 清潭洞", icon: "fa-city", color: "bg-purple-500",
+                        thumb: "https://img.bigfang.tw/2024/10/1728031461-e4bde0eb46b8f32ef4b4207f5344b4d4.jpg",
+                        searchUrl: "https://www.bigfang.tw/blog/post/apgujeong-heongdam-walking"
+                    },
                     { 
                         time: "14:00", title: "COEX 水族館", desc: "室內水族館", icon: "fa-fish", color: "bg-blue-500",
                         thumb: "https://res.klook.com/image/upload/w_750,h_469,c_fill,q_85/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/svpqsljlmysehtck8zbc.webp", // Aquarium
@@ -657,7 +685,7 @@
                             </div>
                             
                             <!-- Thumbnail -->
-                            ${event.thumb ? `<img src="${event.thumb}" class="w-20 h-20 rounded-lg object-cover flex-shrink-0 border border-gray-100 self-center">` : ''}
+                            ${event.thumb ? `<a href="${searchUrl}" target="_blank" class="flex-shrink-0"><img src="${event.thumb}" class="w-20 h-20 rounded-lg object-cover flex-shrink-0 border border-gray-100 self-center"></a>` : ''}
                         </div>
                     </div>`;
                 timelineWrapper.appendChild(eventEl);
